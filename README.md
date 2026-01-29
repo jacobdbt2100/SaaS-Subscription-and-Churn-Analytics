@@ -4,4 +4,4 @@
 
 **Tools:** `dbt`, `Databricks`, `Git/GitHub`, `Power BI`
 
-**Skills:** `SQL Transformations`, `-- Normalization`, `Star Schema Modelling`, `Data Validation`, `Documentation`, `Power BI Data Modelling`, `DAX`, `Dashboard Design`
+**Skills:** `SQL Transformations`, `Data Validation`, `Documentation`, `Power BI Data Modelling`, `DAX`, `Dashboard Design`
