@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: trial_model
+  - name: bronze_goods_delivery
     description: "goods_delivery_data renamed columns"
    
     config:
