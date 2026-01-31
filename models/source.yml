@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: goods_delivery_data
+    description: "Raw goods delivery data from the company's transactional system"
+    database: goods_delivery_source_catalog
+    schema: goods_delivery_source_schema
+    tables:
+      - name: goods_delivery                  # Name to refer to in this project
+        identifier: goods_delivery_source_tbl # Table name in the source schema
+        description: "Customer orders being fulfilled in August & September 2025"
+  

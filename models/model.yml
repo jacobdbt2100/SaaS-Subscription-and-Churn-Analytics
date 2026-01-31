@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: trial_model
+    description: "goods_delivery_data renamed columns"
+   
+    config:
+      materialized: view              # Can also be 'table', 'incremental', etc.
