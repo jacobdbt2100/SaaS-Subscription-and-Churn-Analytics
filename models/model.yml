@@ -5,4 +5,4 @@ models:
     description: "goods_delivery_data renamed columns"
    
     config:
-      materialized: view              # Can also be 'table', 'incremental', etc.
+      materialized: table              # Can also be 'table', 'incremental', etc.

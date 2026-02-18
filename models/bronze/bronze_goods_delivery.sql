@@ -1,5 +1,3 @@
-{{ config(materialized='view') }}
-
 select 
   `Order ID` as order_id,
   `Article` as article,
@@ -13,5 +11,6 @@ select
   `Weight (Ton)` as weight_ton,
   `Actual Delivered` as actual_qty_delivered,
   `Status` as status,
-  `Cost` as cost
+  `Cost` as cost,
+  current_timestamp as ingested_at
 from {{ source('goods_delivery_data', 'goods_delivery') }}
