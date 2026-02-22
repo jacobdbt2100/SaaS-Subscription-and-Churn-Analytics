@@ -15,6 +15,20 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
+# Default model configs
 models:
   SaaS_Subscription_and_Churn_Analytics:
-    +materialized: table
+    # Staging / Bronze layer defaults
+    bronze:
+      +materialized: table
+      +schema: bronze
+
+    # Intermediate / Silver layer defaults
+    silver:
+      +materialized: view
+      +schema: silver
+
+    # Mart / Gold layer defaults
+    gold:
+      +materialized: table
+      +schema: gold

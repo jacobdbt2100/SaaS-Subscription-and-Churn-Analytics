@@ -3,6 +3,6 @@ version: 2
 models:
   - name: bronze_customers
     description: "customer metadata"
+  - name: bronze_churn_events
+    description: "churn dates, reasons, and refund behaviors"
    
-    config:
-      materialized: table              # Can also be 'view', 'incremental', etc.
