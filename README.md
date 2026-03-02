@@ -76,33 +76,7 @@ Since `usage_id` was duplicated and had no foreign key dependencies, a surrogate
 ## Tools:
 `dbt` `PostgreSQL` `Git/GitHub` `Power BI`
 
-## Insights:
+## Insights & Recommendations:
 
-Revenue
-
-Identified revenue concentration across top 20% of accounts
-
-MRR growth primarily driven by expansion, not new signups
-
-Retention
-
-Reactivation rate declines sharply after 60 days of churn
-
-Customers on higher-tier plans show lower churn probability
-
-Support
-
-High ticket volume correlates with churn within 30–45 days
-
-Slow response time increases churn likelihood
-
-## Recommendations:
-
-Implement targeted reactivation campaigns within 30 days of churn
-
-Monitor expansion revenue separately from new MRR
-
-Introduce proactive support triggers for high-value accounts
-
-Track support resolution time as a churn-risk KPI
+<img src="https://raw.githubusercontent.com/jacobdbt2100/SaaS-Subscription-and-Churn-Analytics/main/SaaS subscription and churn analysis.jpg" width="800">
 ___
