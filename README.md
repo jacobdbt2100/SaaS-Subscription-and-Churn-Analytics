@@ -48,7 +48,4 @@ Since `usage_id` was duplicated and had no foreign key dependencies, a surrogate
 
 ### Skills:
 `SQL Modelling` `Data Test & Validation` `Documentation` `Continuous Integration & Deployment (CI/CD)` `Power BI Data Modelling` `DAX` `Data Visualization`
-
-### Tools:
-`dbt` `PostgreSQL` `Git/GitHub` `Power BI`
 ___
