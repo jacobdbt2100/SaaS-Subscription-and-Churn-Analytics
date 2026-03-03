@@ -25,47 +25,20 @@ Build a clean, testable, and scalable data model that supports executive-level r
 ## Methodology:
 
 1. Data Modelling (ELT Approach)
-   Raw SaaS tables: accounts, subscriptions, invoices, payments, support tickets
-
-Staging models: cleaned and standardised fields
-
-Intermediate models: lifecycle logic (first order date, churn date, reactivation windows)
-
-Metrics layer (monthly grain): MRR, churn rate, LTV, ARPU, reactivation rate
-
-2. Transformation Layer (dbt)
-
-Modular SQL models
-
-Reusable CTE structure
-
-Surrogate keys where necessary
-
-Documented models and columns
-
-3. Data Testing & Validation
-
-Unique & not null tests
-
-Relationship tests (foreign key integrity)
-
-Custom logic tests (e.g., churn date > signup date)
-
-4. CI/CD
-
-Version-controlled via GitHub
-
-dbt runs triggered through CI workflow
-
-Automated checks before merge
-
-5. Reporting Layer (Power BI)
-
-Star schema built from metrics layer
-
-Calendar table for cohort and MRR analysis
-
-DAX measures for dynamic KPIs
+2. Transformation Layer (dbt): Surrogate keys where necessary
+3. Documented models and columns
+4. Data Testing & Validation
+5. Unique & not null tests
+6. Relationship tests (foreign key integrity)
+7. Custom logic tests (e.g., churn date > signup date)
+8. CI/CD
+9. Version-controlled via GitHub
+10. dbt runs triggered through CI workflow
+11. Automated checks before merge
+12. Reporting Layer (Power BI)
+13. Star schema built from metrics layer
+14. Calendar table for cohort and MRR analysis
+15. DAX measures for dynamic KPIs
 
 Since `usage_id` was duplicated and had no foreign key dependencies, a surrogate primary key was introduced to enforce event-level uniqueness and preserve modelling integrity.
 
