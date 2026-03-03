@@ -47,5 +47,5 @@ Since `usage_id` was duplicated and had no foreign key dependencies, a surrogate
 <img src="https://raw.githubusercontent.com/jacobdbt2100/SaaS-Subscription-and-Churn-Analytics/main/SaaS subscription and churn analysis.jpg" width="800">
 
 ### Skills:
-`SQL Modelling` `Data Test & Validation` `Documentation` `Continuous Integration & Deployment (CI/CD)` `Power BI Data Modelling` `DAX` `Data Visualization`
+SQL Modelling, Data Test & Validation, Documentation, Power BI Data Modelling, DAX, Data Visualization
 ___
